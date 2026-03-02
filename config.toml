@@ -1,6 +1,7 @@
 [site]
 domain = "https://www.yourdomaintoscan.com"
 label = "Cookie Scanner"
+timeout = 2
 
 [traversal]
 # List at least 10 subpages to visit
