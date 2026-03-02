@@ -1,0 +1,11 @@
+[site]
+domain = "https://www.yourdomaintoscan.com"
+label = "Cookie Scanner"
+
+[traversal]
+# List at least 10 subpages to visit
+pages = [
+    # --- CORE HUBS & FOOTER ---
+    "/"
+
+]
