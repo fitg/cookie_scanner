@@ -63,7 +63,7 @@ async def run_traversal(browser, config):
                 consent_accepted = True
             
             # Small sleep to allow async tracking cookies to load
-            await asyncio.sleep(2) 
+            await asyncio.sleep(config['site']['timeout']) 
             current_cookies = await context.cookies()
             captured_cookies.extend(current_cookies)
         except Exception as e:
