@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "cookie-traverser"
 version = "0.1.0"
-description = "A tool to traverse domains and compare logged-in vs logged-out cookies."
-authors = ["Your Name <you@example.com>"]
+description = "A tool to traverse domains and get cookies."
+authors = ["Gustaw Fit <gustaw.fit@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
